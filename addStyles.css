@@ -1,0 +1,41 @@
+/* transition effects for each photos when clicked */
+.lessons-image {
+  transition: width 0.3s ease;
+  cursor: pointer;
+}
+
+/* additinal styles for hover and navigation states */
+#homeLink {
+  position: relative;
+  margin: 0;
+  padding: 0;
+}
+
+.nav-link {
+  background-color: white;
+  padding: 3px;
+}
+
+#homeLink .nav-link, 
+#blogLink .nav-link,
+#flexLink .nav-link {
+  display: block;
+  width: 100%;
+  height: 100%;
+  border-radius: 14px;
+  margin: 0;
+  padding: 3px;
+  
+}
+
+.nav-link img {
+  margin-top: 8px;
+}
+
+.nav-link:hover {
+  background-color: #ffd700;
+}
+
+.nav-link.active {
+  background-color: #ffd700;
+}
